@@ -6,4 +6,5 @@ jobs:
        - image: circleci/ruby:2.3
      steps:
        - checkout
-       - run: echo "hello world"
+       - run:
+           command: "make"
